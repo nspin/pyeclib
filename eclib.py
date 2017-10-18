@@ -5,8 +5,7 @@ import _eclib
 
 def mwrank(ai):
     """
-    Find Mordell-Weil baisis of the given curve (a1, a2, a3, a4, a6)
-    where each ai is of the form (num, den).
+    Find Mordell-Weil baisis of a curve (a1, a2, a3, a4, a6) where each ai=p/q is of the form (p, q).
     """
     return tuple(
         (tuple(map(int, x)), tuple(map(int, y)))
