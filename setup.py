@@ -11,7 +11,7 @@ setup(
             '_eclib',
             sources = ['_eclib.cc', 'wrapper.cc'],
             libraries = ['ntl', 'ec'],
-            extra_compile_args = ['-std=c++11'],
+            extra_compile_args = ['-x', 'c++', '-std=c++11'],
         ),
     ],
 )
