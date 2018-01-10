@@ -6,6 +6,7 @@ setup(
     description="Python bindings for John Cremona's eclib.",
     author='Nick Spinale',
     license='MIT',
+    packages=['.'],
     ext_modules = [
         Extension(
             '_eclib',
